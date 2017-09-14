@@ -1,0 +1,46 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  padding:0;
+  border: solid;
+  border-color:red;
+  background-color:grey;
+}
+
+header {
+  width:960px;
+  height:125px;
+  border: solid;
+  border-color:black;
+  background-color:white;
+}
+
+#main-section {
+  width: 650px;
+  height: 480px;
+  border: solid;
+  border-color: black;
+  float:left;
+  margin: 5px;
+  background-color:lightblue;
+  padding:5px;
+}
+
+ #sidebar {
+  width: 270px;
+  height: 100px;
+  border: solid;
+  border-color:black;
+  float:left;
+  background-color:green;
+  margin:1px;
+  padding:2px;
+ }
+
+.container {
+  width: 960px;
+  height:700px;
+  border: solid;
+  border-color: black;
+  background-color:red;
+}
