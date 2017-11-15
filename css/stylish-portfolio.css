@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-  font-family: 'Acme', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Cinzel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .text-vertical-center {
@@ -28,14 +28,21 @@ body {
   padding: 0;
 }
 
-
+#name{
+  font-size:90px;
+}
 /* Custom Button Styles */
 
 .btn-dark {
-  color: #fff;
+  color: black;
   border: none;
-  border-radius: 0;
-  background-color: rgba(0, 0, 0, .4);
+  border-radius: 20;
+  background-color: #9CAEBA;
+  text-shadow: none;
+  font-size: 20px;
+  font-weight:bold;
+  padding: 2px 30px 2px 30px;
+  margin: 0px 5px 0px 5px;
 }
 
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
@@ -148,6 +155,15 @@ hr.small {
   margin: 5px 5px 0 0;
   padding: 15px 20px;
 }
+#tagline{
+  background-color:black;
+  /*font-weight: bold;*/
+  font-size:25px;
+}
+
+#scroll-buttons{
+  color:green;
+}
 
 
 /* Header */
@@ -163,7 +179,7 @@ hr.small {
   -o-background-size: cover;
   background-size: cover;
   color:yellow;
-  text-shadow: 3px 3px black;
+  text-shadow: 5px 5px black;
 }
 
 
