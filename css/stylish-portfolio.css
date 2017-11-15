@@ -64,12 +64,24 @@ body {
 
 
 /* Custom Horizontal Rule */
+p {
+  font-weight: bold;
+}
 
 hr.small {
   max-width: 100px;
 }
+#about-me{
+  background-color: lightgrey;
+}
 
+#my-work{
+  background-color: lightgrey;
+}
 
+#contact {
+  font-size: 20px;
+}
 /* Side Menu */
 
 #sidebar-wrapper {
@@ -161,11 +173,6 @@ hr.small {
   font-size:25px;
 }
 
-#scroll-buttons{
-  color:green;
-}
-
-
 /* Header */
 
 .header {
@@ -203,17 +210,7 @@ hr.small {
 
 /* Callout */
 
-.callout {
-  display: table;
-  width: 100%;
-  height: 400px;
-  color: #fff;
-  background: url(../img/callout.jpg) no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+
 
 
 /* Portfolio */
