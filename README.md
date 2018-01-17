@@ -9,4 +9,4 @@ https://brainstorm-chaser.github.io/my_portfolio/
 
 Languages used:
 
-Bootstrap, HTML, CSS
+Bootstrap, HTML5, CSS3, Javascript, Gulp
