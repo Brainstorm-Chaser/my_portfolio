@@ -12,7 +12,7 @@ html, body {
 }
 
 body {
-  font-family: 'Cinzel', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family:  'Cinzel','Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .text-vertical-center {
@@ -45,9 +45,33 @@ body {
   margin: 5px 5px 5px 5px;
 }
 
+#myBtn {
+ 
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
 .btn-dark:hover, .btn-dark:focus, .btn-dark:active {
-  color: #fff;
-  background-color: rgba(0, 0, 0, .7);
+  color: yellow;
+  background-color: black;
 }
 
 .btn-light {
@@ -58,14 +82,27 @@ body {
 }
 
 .btn-light:hover, .btn-light:focus, .btn-light:active {
-  color: #333;
+  color: yellow;
   background-color: rgba(255, 255, 255, .8);
 }
+
+hr {
+        border: 2px dashed #000;
+        width: 100%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
 
 
 /* Custom Horizontal Rule */
 p {
   font-weight: bold;
+  font-size: 24px;
+}
+
+h4 {font-weight: bold;
+  text-align: center;
 }
 
 hr.small {
@@ -169,6 +206,7 @@ hr.small {
 }
 #tagline{
   background-color:black;
+  color: white;
   /*font-weight: bold;*/
   font-size:25px;
 }
